@@ -9,6 +9,5 @@ const server = http.createServer(function (req, res) {
 
   //listen for incoming connections
 server.listen(8080, 'localhost', null, function() {
-    //log a msg that the server is listening and port
     console.log('Server is listening on localhost:8080');
 });
